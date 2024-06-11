@@ -1,0 +1,12 @@
+function max = maxno(n1, n2, n3)
+max = n1;
+if(n2 &gt; max)
+max = n2;
+end
+if(n3 &gt; max)
+max = n3;
+end
+%output:
+maxno(4,7,1)
+ans =
+7
